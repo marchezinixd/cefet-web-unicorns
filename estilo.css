@@ -83,20 +83,11 @@ p{
 #musica{
   padding-left: 12px;
 }
-p:nth-child(2n+1){
+p:nth-of-type(2n){
   padding-left: 34px;
 
 }
 .destacado{
   color: #004a79;
   background-color: #c4caf3;
-}
-/*br{
-  padding: 0px;
-}*/
-.destacado p:nth-child(2n){
-  padding-left: 34px;
-}
-.destacado p:nth-child(2n+1){
-  padding-left: 0px;
 }
