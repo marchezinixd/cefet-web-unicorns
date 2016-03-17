@@ -80,11 +80,14 @@ p{
   font-family: 'Times New Roman';
 
 }
-#musica{
+#musica h2{
   padding-left: 12px;
 }
-p:nth-of-type(2n){
-  padding-left: 34px;
+#musica p{
+  padding-left: 12px;
+}
+#musica p:nth-of-type(2n){
+  padding-left: 46px;
 
 }
 .destacado{
