@@ -36,7 +36,8 @@ body{
 }
 p{
   font-size: 14px;
-  font-family: 'Arial'
+  font-family: 'Arial';
+
 }
 #hoje{
   width: 405px;
@@ -46,23 +47,56 @@ p{
   border-style: solid;
   border-color: #ff58fb;
   text-align: center;
-
+  margin-right: 25px;
+  padding-bottom: 30px;
 
 }
 #hoje img{
   width: 112px;
 
+
+}
+#hoje p{
+  padding-left: 35px;
+  padding-right: 35px;
+
 }
 #hoje h2{
   padding-top: 20px;
+  padding-bottom: 20px;
   color: black;
   font-size: 24px;
-  font-family: "Times New Roman";
+  font-family: 'Times New Roman';
 }
 #hoje h3{
 
   color: black;
   font-size: 18px;
-  font-family: "Times New Roman";
+  font-family: 'Times New Roman';
 
+}
+#musica h2{
+  color: black;
+  font-family: 'Times New Roman';
+
+}
+#musica{
+  padding-left: 12px;
+}
+p:nth-child(2n+1){
+  padding-left: 34px;
+
+}
+.destacado{
+  color: #004a79;
+  background-color: #c4caf3;
+}
+/*br{
+  padding: 0px;
+}*/
+.destacado p:nth-child(2n){
+  padding-left: 34px;
+}
+.destacado p:nth-child(2n+1){
+  padding-left: 0px;
 }
